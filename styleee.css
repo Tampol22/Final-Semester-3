@@ -1,0 +1,108 @@
+body {
+	background-image: url('Images/13.png');
+	background-size: cover;
+}
+
+#wrap {
+    width: 900px;
+	margin: auto;
+}
+
+#header {
+	width: 900px;
+	height: 130px;
+	background-image: url('Images/1.jpg');
+	background-size: cover;
+	background-position: 0 -150px;
+}
+	#header h1 {
+		padding: 15px 10px;
+		box-sizing: border-box;
+		font: 40px/50px arial;
+		color: #fff;
+		font-weight: bold;
+		text-align: center;
+	}
+
+
+#navigasi, .satu, .dua, .tiga, .empat{
+	width: 900px;
+	height: 45px;
+	display: inline-block;
+	font: 17px/30px calibri;
+	font-weight: bold;
+	background-image: url('Images/8.jpg');
+	text-align: center;	
+}
+	#navigasi .satu, .dua, .tiga, .empat{
+		margin: 5px 30px;
+		width: 120px;
+		height: 30px;
+		background-image: url('Images/8.jpg');
+		background-position: 200px -250px;
+		border: 2px solid #3ddf4b;
+		border-radius: 20px;
+	}
+		#navigasi a {
+			color: #fff;
+			text-decoration: none;
+		}
+			#navigasi a:hover {
+				display: block;
+				height: 30px;
+				border-radius: 20px;
+				background-image: url('Images/8.jpg');
+				background-position: 100px -450px;
+			}
+
+#content {
+	display: inline-block;
+	float: right;
+	width: 900px;
+	background-image: url('Images/21.jpg');
+	background-size: cover;
+}
+	#content h2 {
+		padding-left: 50px;
+		font-family: calibri;
+		color: #fff;
+	}	
+		#content img {
+			display: block;
+			margin: auto;
+			width: 130px;
+			height: 150px;
+			border: 1px solid #000;
+		}
+			#content table {
+				display: block;
+				padding: 20px;
+				padding-left: 110px;
+				margin: auto;
+				width: 480px;
+			}
+				#content td {
+					font-family: calibri;
+					color: #fff;
+					line-height: 30px;
+					word-spacing: 8px;
+				}
+				
+				
+#footer {
+	display: inline-block;
+	clear:both;
+	width:900px;
+	height:30px;
+	padding: 5px;
+	box-sizing: border-box;
+	color: #ffffff;
+	text-align: center;
+	background-image: url('Images/8.jpg');
+	background-position: 100px -450px;
+}
+	#footer h4 {
+		margin: 0;
+		word-spacing: 6px;
+		letter-spacing: 6px;
+	}
